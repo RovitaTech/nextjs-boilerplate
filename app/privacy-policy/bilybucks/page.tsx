@@ -30,7 +30,7 @@ export default function BilyBucksPrivacyPolicy() {
             Privacy Policy
           </h1>
           <p style={{ color: '#6b7280', marginBottom: '5px', fontSize: '18px' }}>BilyBucks</p>
-          <p style={{ color: '#9ca3af', fontSize: '14px' }}>Last Updated: October 26, 2025</p>
+          <p style={{ color: '#9ca3af', fontSize: '14px' }}>Last Updated: May 5, 2026</p>
         </div>
 
         <div style={{ textAlign: 'left' }}>
@@ -80,6 +80,32 @@ export default function BilyBucksPrivacyPolicy() {
 
           <div style={{ marginBottom: '50px' }}>
             <h2 style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937', marginBottom: '25px' }}>
+              Subscriptions and Payments
+            </h2>
+            <p style={{ color: '#374151', lineHeight: '1.6', marginBottom: '15px' }}>
+              BilyBucks may offer optional paid subscriptions that unlock premium features.
+            </p>
+            <ul style={{ marginLeft: '20px' }}>
+              <li style={{ color: '#374151', marginBottom: '12px', lineHeight: '1.6' }}>
+                <strong>Store processing:</strong> Purchases are processed by the Apple App Store (iOS) and Google Play (Android), not directly by us.
+              </li>
+              <li style={{ color: '#374151', marginBottom: '12px', lineHeight: '1.6' }}>
+                <strong>RevenueCat:</strong> We use RevenueCat for purchase validation, entitlement management, and cross-device subscription synchronization.
+              </li>
+              <li style={{ color: '#374151', marginBottom: '12px', lineHeight: '1.6' }}>
+                <strong>Payment details:</strong> We do not store your full card or bank account details.
+              </li>
+              <li style={{ color: '#374151', marginBottom: '12px', lineHeight: '1.6' }}>
+                <strong>Limited purchase metadata:</strong> We may process limited purchase-related information such as product ID, subscription status, expiration date, app user ID, and device/app identifiers needed to deliver premium access.
+              </li>
+              <li style={{ color: '#374151', marginBottom: '12px', lineHeight: '1.6' }}>
+                <strong>Refunds and cancellations:</strong> Refunds, cancellations, and subscription management are handled according to Apple and Google billing policies.
+              </li>
+            </ul>
+          </div>
+
+          <div style={{ marginBottom: '50px' }}>
+            <h2 style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937', marginBottom: '25px' }}>
               Data Storage and Security
             </h2>
             
@@ -111,7 +137,7 @@ export default function BilyBucksPrivacyPolicy() {
             </p>
             <ul style={{ marginLeft: '20px' }}>
               <li style={{ color: '#374151', marginBottom: '12px', lineHeight: '1.6' }}>
-                <strong>Service Providers:</strong> We may share data with trusted third-party service providers (like Google Firebase) who assist us in operating our app.
+                <strong>Service Providers:</strong> We may share data with trusted third-party service providers (like Google Firebase and RevenueCat) who assist us in operating our app.
               </li>
               <li style={{ color: '#374151', marginBottom: '12px', lineHeight: '1.6' }}>
                 <strong>Legal Requirements:</strong> We may disclose your information if required by law or in response to valid legal requests.
@@ -185,9 +211,21 @@ export default function BilyBucksPrivacyPolicy() {
             </p>
             <ul style={{ marginLeft: '20px' }}>
               <li style={{ color: '#374151', marginBottom: '12px', lineHeight: '1.6' }}>
+                <strong>RevenueCat:</strong> For purchase validation and subscription entitlement management.{' '}
+                <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'none' }}>
+                  RevenueCat Privacy Policy
+                </a>
+              </li>
+              <li style={{ color: '#374151', marginBottom: '12px', lineHeight: '1.6' }}>
                 <strong>Google Firebase:</strong> For authentication, database, and hosting services.{' '}
                 <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'none' }}>
                   Firebase Privacy Policy
+                </a>
+              </li>
+              <li style={{ color: '#374151', marginBottom: '12px', lineHeight: '1.6' }}>
+                <strong>Apple App Store:</strong> For iOS app distribution and billing.{' '}
+                <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'none' }}>
+                  Apple Privacy Policy
                 </a>
               </li>
               <li style={{ color: '#374151', marginBottom: '12px', lineHeight: '1.6' }}>
