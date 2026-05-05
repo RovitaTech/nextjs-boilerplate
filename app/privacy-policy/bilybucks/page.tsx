@@ -292,7 +292,7 @@ export default function BilyBucksPrivacyPolicy() {
 
           <div style={{ textAlign: 'center', paddingTop: '40px', marginTop: '40px', borderTop: '1px solid #e5e7eb' }}>
             <p style={{ color: '#9ca3af', fontSize: '14px' }}>
-              © 2025 RovitaTech. All rights reserved.
+              © 2026 RovitaTech. All rights reserved.
             </p>
           </div>
         </div>
