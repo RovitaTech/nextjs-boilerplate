@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const manrope = Manrope({
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Rovitatech - Innovative Software Solutions",
-  description: "We bring solutions to make life easier for our customers. Leading software development company specializing in web, mobile, and cloud solutions.",
+  title: "RovitaTech | Software Studio",
+  description: "A premium company website for RovitaTech, focused on product experiences, software craftsmanship, and clear business value.",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>
+      <body className={manrope.className}>
         {children}
       </body>
     </html>

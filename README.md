@@ -8,7 +8,6 @@ A modern, professional portfolio website for Rovitatech built with Next.js 16, R
 - 📱 Fully responsive design
 - 🌙 Dark theme with gradient accents
 - ⚡ Fast performance with Next.js 16
-- 🔒 Supabase integration ready
 - 🎯 SEO optimized
 - 💅 Tailwind CSS 4 for styling
 
@@ -20,7 +19,6 @@ A modern, professional portfolio website for Rovitatech built with Next.js 16, R
 - **Styling:** Tailwind CSS 4
 - **Animations:** Framer Motion
 - **Icons:** Lucide React
-- **Database:** Supabase
 - **Deployment:** Vercel
 
 ## Getting Started
@@ -30,9 +28,9 @@ A modern, professional portfolio website for Rovitatech built with Next.js 16, R
 npm install
 ```
 
-2. Set up environment variables:
+2. Set up environment variables if needed:
    - Copy `.env.example` to `.env.local`
-   - Add your Supabase credentials
+   - Add any project-specific values you introduce later
 
 3. Run the development server:
 ```bash
@@ -43,12 +41,7 @@ npm run dev
 
 ## Environment Variables
 
-Create a `.env.local` file with:
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
+Create a `.env.local` file only if you add environment-specific configuration.
 
 ## Deployment
 
@@ -74,8 +67,7 @@ This project is configured for deployment on Vercel:
 │   ├── About.tsx        # About section
 │   ├── Contact.tsx      # Contact form
 │   └── Footer.tsx       # Footer
-├── lib/
-│   └── supabase.ts      # Supabase client
+├── lib/                 # Shared utilities and helpers
 └── public/              # Static assets
 ```
 
